@@ -16,7 +16,7 @@
 when:
   branch:
     exclude: pages
-  event: [push, pull_request]
+  event: [push, pull_request, manual]
 
 # Recursive cloning is used to fully clone the themes given as Git submodules
 clone:
@@ -32,7 +32,7 @@ steps:
     commands:
       - hugo --minify
     when:
-      event: [pull_request, push]
+      event: [pull_request, push, manual]
 
   publish:
     image: bitnami/git
@@ -58,4 +58,4 @@ steps:
       - git commit -m "Woodpecker CI ${CI_COMMIT_SHA}"
       - git push
     when:
-      event: push
+      event: [push, manual]
