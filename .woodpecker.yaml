@@ -24,6 +24,8 @@ clone:
     image: woodpeckerci/plugin-git
     settings:
       recursive: true
+      submodule_override:
+        themes/hugo-xmin: https://codeberg.org/maxchen32/hugo-xmin.git
 
 steps:
   # Build hugo static files
