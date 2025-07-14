@@ -1,0 +1,3 @@
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = ssh://git@codeberg.org/maxchen32/hugo-xmin.git
