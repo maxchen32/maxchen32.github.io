@@ -11,4 +11,4 @@ Luanti 和 Battle for Wesnoth 的一部分中文就是我贡献的。
 
 我常用 C 语言，了解一部分 C++ 特性，接触过 Lua 和 Python 。
 
-建议到 [Codeberg](https://codeberg.org/maxchen32) 上看我写的代码，有的项目只在那儿有。有些项目会同步到 GitHub 上（比如这个博客），但大部分不会。
+建议到 [Codeberg](https://codeberg.org/maxchen32) 上看我写的代码，有的项目只在那儿有。
