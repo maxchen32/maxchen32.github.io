@@ -42,6 +42,7 @@ jobs:
         with:
           submodules: recursive
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-known-hosts: 'codeberg.org'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
